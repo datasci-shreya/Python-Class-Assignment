@@ -5,7 +5,7 @@ No= int(input("Enter a number : "))
 Result = Cube(No)
 print("Cube is : ",Result)
 
-print("_"*15)
+print("_"*15)__________________________________________
 
 Cube = lambda No : No * No * No
 def main():
@@ -24,3 +24,4 @@ if __name__ == "__main__":
 #6
 
 #Cube is :  216
+
