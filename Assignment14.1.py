@@ -1,12 +1,11 @@
 #Write a lambda function which accept one number and returns square of that number
-#First method
+
 Square = lambda No : No * No
 No= int(input("Enter a number : "))
 Result = Square(No)
 print("Square is : ",Result)
 
 print("_"*15)
-#Second method 
 Square = lambda No : No * No
 def main():
     Value = 0
@@ -23,4 +22,5 @@ if __name__ == "__main__":
 #_______________
 #Enter a Number :
 #5
+
 #Square is :  25
