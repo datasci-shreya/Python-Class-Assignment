@@ -174,7 +174,7 @@ def main():
 
         app_password = "fkdr wpvc yhnt zatc"
 
-        schedule.every(TimeInterval).minutes.do(CreateLogAndSend,DirectoryName,sender_email,app_password,ReceiveMail)
+        schedule.every(TimeInterval).minutes.do(CreateLog,DirectoryName,sender_email,app_password,ReceiveMail)
 
        
         print("Platform Surveillance System Started Successfully")
@@ -193,6 +193,7 @@ def main():
 
 if __name__ == "__main__":
    main()
+
 
 
 
