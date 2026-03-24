@@ -253,7 +253,7 @@ def CleanTitanicData(df):
     return df
 
 #--------------------------------------------------------
-#   Function name : MarvellousTitanicLogistic
+#   Function name : TitanicLogistic
 #   Description :   This is main pipeline controller
 #                   It loads the dataset, shows raw data
 #                   It preprocess the dataset & train the model
@@ -263,7 +263,7 @@ def CleanTitanicData(df):
 #   Author :        Shreya
 #--------------------------------------------------------
 
-def MarvellousTitanicLogistic(DataPath):
+def TitanicLogistic(DataPath):
     DisplayInfo("Step 1 : Loading the dataset")
     df = pd.read_csv(DataPath)
 
